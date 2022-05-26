@@ -1,5 +1,6 @@
-package dev.ofilipesouza.costumer;
+package dev.ofilipesouza.notification;
 
+import org.apache.tomcat.util.modeler.NotificationInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -10,10 +11,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(
         basePackages = "dev.ofilipesouza.clients"
 )
-public class CustomerApplication
+public class NotificationApplication
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(CustomerApplication.class, args);
+        SpringApplication.run(NotificationApplication.class, args);
     }
 }

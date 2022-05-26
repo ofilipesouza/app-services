@@ -1,4 +1,4 @@
-package dev.ofilipesouza.costumer;
+package dev.ofilipesouza.clients.fraud;
 
 public record FraudCheckResponse(Boolean isFraudster) {
 }

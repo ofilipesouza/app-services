@@ -1,4 +1,4 @@
-package dev.ofilipesouza.costumer;
+package dev.ofilipesouza.customer;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

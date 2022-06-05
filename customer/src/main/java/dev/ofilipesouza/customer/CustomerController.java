@@ -1,4 +1,4 @@
-package dev.ofilipesouza.costumer;
+package dev.ofilipesouza.customer;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

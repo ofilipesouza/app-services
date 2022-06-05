@@ -1,4 +1,4 @@
-package dev.ofilipesouza.costumer;
+package dev.ofilipesouza.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication(
         scanBasePackages = {
-                "dev.ofilipesouza.costumer",
+                "dev.ofilipesouza.customer",
                 "dev.ofilipesouza.amqp",
         }
 )

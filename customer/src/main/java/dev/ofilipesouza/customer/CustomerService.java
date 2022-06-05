@@ -1,13 +1,11 @@
-package dev.ofilipesouza.costumer;
+package dev.ofilipesouza.customer;
 
 import dev.ofilipesouza.amqp.RabbitMQMessageProducer;
 import dev.ofilipesouza.clients.fraud.FraudCheckResponse;
 import dev.ofilipesouza.clients.fraud.FraudClient;
-import dev.ofilipesouza.clients.notification.NotificationClient;
 import dev.ofilipesouza.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 @Service
 @AllArgsConstructor

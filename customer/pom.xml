@@ -34,7 +34,7 @@
         </profile>
     </profiles>
 
-    <name>costumer</name>
+    <name>customer</name>
     <url>http://www.ofilipesouza.dev</url>
 
     <dependencies>
